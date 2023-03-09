@@ -79,7 +79,7 @@ public class FlightBookingTest
         }
 
         //Fixed the expectedTicketPrice test logic
-        double expectedTicketPrice = 2* ((0*(300 + (0.15*300) + (0.1*300))+250 ) + (3*(300 + (0.15*300) + (0.1*300))+ 250));
+        double expectedTicketPrice = 2* ((0*(300 + (0.15*300) + (0.1*300) + 250)) + (3*(300 + (0.15*300) + (0.1*300) + 250)));
         double returnedTicketPrice = fb.getTotalTicketPrice();
 
 
